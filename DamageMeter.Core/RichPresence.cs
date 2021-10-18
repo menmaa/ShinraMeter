@@ -23,7 +23,7 @@ namespace Tera.RichPresence
     
     public class RichPresence
     {
-        private const string ClientId = "448196693964488715";
+        private const string ClientId = "880294531667476500";
         private static RichPresence _instance;
 
         private DiscordRpcClient _client = null;
@@ -111,9 +111,9 @@ namespace Tera.RichPresence
             Assets = new Assets
             {
                 LargeImageKey = (ShowLocation ? BasicTeraData.Instance.MapData.GetImageName(_location) : null) ?? DefaultImage,
-                LargeImageText = _location == null || !ShowLocation ? null : BasicTeraData.Instance.MapData.GetFullName(_location) + " (" + PacketProcessor.Instance.Server.Region + ")",
+                LargeImageText = _location == null || !ShowLocation ? null : BasicTeraData.Instance.MapData.GetFullName(_location),
                 SmallImageKey = ShowCharacter  && _me != null ? $"class_{_me.RaceGenderClass.Class.ToString().ToLower()}" : null, 
-                SmallImageText = ShowCharacter && _me != null ? $"{LP.RpLevel} {_me.Level} {_me.Name} ({_me.Server})" : null,
+                SmallImageText = ShowCharacter && _me != null ? $"{LP.RpLevel} {_me.Level} {_me.Name}" : null,
             }
         
         };
