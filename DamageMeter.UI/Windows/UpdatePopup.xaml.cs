@@ -41,7 +41,7 @@ namespace DamageMeter.UI.Windows
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 using (var client = new WebClient())
                 {
-                    var md = client.OpenRead(new Uri("https://menmastera.com/updates/ShinraMeterV/CHANGELOG.md"));
+                    var md = client.OpenRead(new Uri("https://menmastera.com/shinra/CHANGELOG.md"));
                     return new StreamReader(md).ReadToEnd();
                 }
             }
