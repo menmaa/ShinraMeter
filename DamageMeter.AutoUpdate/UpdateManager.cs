@@ -17,7 +17,7 @@ namespace DamageMeter.AutoUpdate
     {
         private static Dictionary<string, string> _hashes;
         private static Dictionary<string, string> _latest;
-        public static string Version = "2.93";
+        public static string Version = "2.93-MT";
 
         public static string ExecutableDirectory => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
@@ -59,7 +59,7 @@ namespace DamageMeter.AutoUpdate
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             using (var client = new WebClient())
             {
-                var compressed = client.OpenRead(new Uri("http://dps.menmastera.com:8086/updates/ShinraMeterV/" + file.Key + ".zip"));
+                var compressed = client.OpenRead(new Uri("https://menmastera.com/updates/ShinraMeterV/" + file.Key + ".zip"));
                 if (compressed == null) { return true; }
                 new ZipArchive(compressed).Entries[0].ExtractToFile(ExecutableDirectory + @"\tmp\release\" + file.Key);
             }
@@ -177,7 +177,7 @@ namespace DamageMeter.AutoUpdate
         {
             using (var client = new WebClient())
             {
-                var compressed = await client.OpenReadTaskAsync(new Uri("http://dps.menmastera.com:8086/updates/ShinraMeterV.sha1.zip?seed="+DateTime.UtcNow.Ticks)).ConfigureAwait(false);
+                var compressed = await client.OpenReadTaskAsync(new Uri("https://menmastera.com/updates/ShinraMeterV.sha1.zip?seed="+DateTime.UtcNow.Ticks)).ConfigureAwait(false);
                 if (compressed == null) { return true; }
                 using (var stream = new MemoryStream())
                 {

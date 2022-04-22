@@ -36,8 +36,16 @@ namespace DamageMeter.UI.Windows
 
         private string GetPatchNotes()
         {
-            return "Patch Notes not available";
+            try
+            {
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                using (var client = new WebClient())
+                {
+                    var md = client.OpenRead(new Uri("https://menmastera.com/updates/ShinraMeterV/CHANGELOG.md"));
+                    return new StreamReader(md).ReadToEnd();
+                }
+            }
+            catch { return "Patch Notes not available"; }
         }
-
     }
 }
