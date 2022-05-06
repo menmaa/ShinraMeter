@@ -10427,7 +10427,7 @@
     <Monster name="Phantom" id="208" isBoss="False" hp="1400000000" speciesId="0"/>
     <Monster name="Phantom" id="209" isBoss="False" hp="1400000000" speciesId="0"/>
     <Monster name="Phantom" id="210" isBoss="False" hp="1400000000" speciesId="0"/>
-    <Monster name="Akasha's Shade" id="1000" isBoss="True" hp="3368326731" speciesId="4"/>
+    <Monster name="Akasha's Shade" id="1000" isBoss="True" hp="9000000000" speciesId="4"/>
     <Monster name="Charging Hermit Crab's Shade" id="1001" isBoss="False" hp="3500000" speciesId="0"/>
     <Monster name="Poisoning Hermit Crab's Shade" id="1002" isBoss="False" hp="3500000" speciesId="0"/>
     <Monster name="Mindblasting Hermit Crab's Shade" id="1003" isBoss="False" hp="3500000" speciesId="0"/>
@@ -10446,23 +10446,23 @@
     <Monster name="Teleportal" id="1509" isBoss="False" hp="10000" speciesId="0"/>
     <Monster name="Teleportal" id="1510" isBoss="False" hp="10000" speciesId="0"/>
     <Monster name="Teleportal" id="1511" isBoss="False" hp="10000" speciesId="0"/>
-    <Monster name="Baphomet's Shade" id="2000" isBoss="True" hp="4926643709" speciesId="10"/>
+    <Monster name="Baphomet's Shade" id="2000" isBoss="True" hp="9800000000" speciesId="10"/>
     <Monster name="Tove's Shade" id="2001" isBoss="False" hp="8416195" speciesId="0"/>
-    <Monster name="Dakuryon's Shade" id="3000" isBoss="True" hp="4001030783" speciesId="0"/>
+    <Monster name="Dakuryon's Shade" id="3000" isBoss="True" hp="10500000000" speciesId="0"/>
     <Monster name="Demon Reaver's Shade" id="3001" isBoss="False" hp="4058824" speciesId="0"/>
     <Monster name="Lancer's Shade" id="3003" isBoss="False" hp="4391059" speciesId="0"/>
     <Monster name="Overlord's Shade" id="3004" isBoss="False" hp="5644673" speciesId="0"/>
     <Monster name="Warrior's Shade" id="3005" isBoss="False" hp="5644673" speciesId="0"/>
-    <Monster name="Meldita's Shade" id="4000" isBoss="True" hp="5016748351" speciesId="2"/>
+    <Monster name="Meldita's Shade" id="4000" isBoss="True" hp="12000000000" speciesId="2"/>
     <Monster name="Tentacle's Shade" id="4001" isBoss="False" hp="9249707" speciesId="0"/>
-    <Monster name="Kelsaik's Shade" id="5000" isBoss="True" hp="5300990743" speciesId="4"/>
+    <Monster name="Kelsaik's Shade" id="5000" isBoss="True" hp="16500000000" speciesId="4"/>
     <Monster name="Thrall of Flame's Shade" id="5002" isBoss="False" hp="28998074" speciesId="5"/>
     <Monster name="Thrall of Ice's Shade" id="5003" isBoss="False" hp="28998074" speciesId="5"/>
-    <Monster name="Krakatox's Shade" id="6000" isBoss="True" hp="10215463911" speciesId="0"/>
+    <Monster name="Krakatox's Shade" id="6000" isBoss="True" hp="50000000000" speciesId="0"/>
     <Monster name="Tentacle's Shade" id="6001" isBoss="False" hp="31674742" speciesId="0"/>
     <Monster name="Demokron Shard's Shade" id="6002" isBoss="False" hp="10000" speciesId="0"/>
-    <Monster name="Lakan's Shade" id="7000" isBoss="True" hp="6473497042" speciesId="4"/>
-    <Monster name="Desolarus's Shade" id="8000" isBoss="True" hp="7287838661" speciesId="10"/>
+    <Monster name="Lakan's Shade" id="7000" isBoss="True" hp="35000000000" speciesId="4"/>
+    <Monster name="Desolarus's Shade" id="8000" isBoss="True" hp="40000000000" speciesId="10"/>
     <Monster name="Rokdos's Shade" id="8100" isBoss="False" hp="1189717704" speciesId="0"/>
     <Monster name="Soul Jar's Shade" id="8101" isBoss="False" hp="30000" speciesId="0"/>
     <Monster name="Soul Jar's Shade" id="8102" isBoss="False" hp="30000" speciesId="0"/>
@@ -10481,8 +10481,8 @@
     <Monster name="Soul Jar's Shade" id="8115" isBoss="False" hp="30000" speciesId="0"/>
     <Monster name="Soul Jar's Shade" id="8116" isBoss="False" hp="30000" speciesId="0"/>
     <Monster name="Viyor's Shade" id="8200" isBoss="False" hp="1189717704" speciesId="0"/>
-    <Monster name="Darkan's Shade" id="9000" isBoss="True" hp="7061616274" speciesId="10"/>
-    <Monster name="Shandra Manaya's Shade" id="10000" isBoss="True" hp="7859772945" speciesId="2"/>
+    <Monster name="Darkan's Shade" id="9000" isBoss="True" hp="33000000000" speciesId="10"/>
+    <Monster name="Shandra Manaya's Shade" id="10000" isBoss="True" hp="37000000000" speciesId="2"/>
   </Zone>
   <Zone id="436" name="Karascha's Lair">
     <Monster name="Cultist Devastator" id="1001" isBoss="False" hp="1160" speciesId="0"/>
